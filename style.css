@@ -1,0 +1,51 @@
+/* Fonts */
+@font-face {
+  font-family: inter;
+  src: url(/fonts/Inter/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: inter-regular;
+  src: url(/fonts/Inter/Inter-Regular.ttf);
+}
+
+:root {
+  /* main colors */
+  --red: #bc0613;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1 {
+  font-family: inter;
+  font-weight: bold;
+}
+
+p {
+  font-family: inter-regular;
+}
+
+main {
+  display: flex;
+}
+
+
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  color: rebeccapurple;
+}
+
+
+
+
+
+
+
+
